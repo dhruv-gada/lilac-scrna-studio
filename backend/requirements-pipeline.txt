@@ -1,0 +1,11 @@
+# Python tools the real (non-demo) pipeline calls. Install into the pipeline environment.
+multiqc>=1.25
+kb-python>=0.28          # kallisto | bustools (alternative aligner)
+cellbender>=0.3.2        # alternative ambient RNA removal (GPU recommended)
+celltypist>=1.6          # automatic annotation
+scanpy>=1.10
+anndata>=0.10
+scipy
+pandas
+# Command-line tools installed separately: bcl-convert (Illumina), FastQC, STAR >= 2.7.11
+# R >= 4.4 with: Seurat (5.x), SoupX, scDblFinder, DESeq2, apeglm, harmony, scCustomize, jsonlite, ggplot2
